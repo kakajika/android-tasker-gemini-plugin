@@ -4,6 +4,7 @@
 
     <!-- actions -->
     <string name="action_name">Gemini 텍스트 생성</string>
+    <string name="image_action_name">Gemini 이미지 분석</string>
 
     <!-- configuration / inputs -->
     <string name="gemini_model">Gemini 모델</string>
@@ -12,10 +13,19 @@
     <string name="gemini_api_key_hint">Gemini API 키</string>
     <string name="gemini_prompt">Gemini API 프롬프트</string>
     <string name="gemini_prompt_hint">Tasker 변수가 포함된 프롬프트 텍스트 (예: %DATE, %SMSRN, 등등)</string>
+    <string name="image_prompt_hint">이미지에 대해 알고 싶은 내용을 설명하세요</string>
     <string name="config_finished">저장되었습니다.</string>
 
     <!-- outputs -->
     <string name="gemini_text">Gemini가 생성한 텍스트</string>
+    <string name="gemini_image_text">Gemini 이미지 분석 결과</string>
+    
+    <!-- labels -->
+    <string name="model_label">Gemini 모델:</string>
+    <string name="api_key_label">API 키:</string>
+    <string name="prompt_label">프롬프트:</string>
+    <string name="model_hint">gemini-1.5-pro</string>
+    <string name="api_key_hint">구글 AI API 키</string>
 
     <!-- errors -->
     <string name="error_message_no_model">오류: Gemini 모델이 없습니다.</string>

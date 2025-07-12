@@ -3,6 +3,7 @@
 
     <!-- actions -->
     <string name="action_name">Gemini Text Generation</string>
+    <string name="image_action_name">Gemini Image Analysis</string>
 
     <!-- configuration / inputs -->
     <string name="gemini_model">Gemini Model</string>
@@ -11,10 +12,19 @@
     <string name="gemini_api_key_hint">API Key for Gemini</string>
     <string name="gemini_prompt">Prompt for Gemini API</string>
     <string name="gemini_prompt_hint">Prompt text with Tasker variables (eg. %DATE, %SMSRN, etc.)</string>
+    <string name="image_prompt_hint">Describe what you want to know about the image</string>
     <string name="config_finished">Values saved.</string>
 
     <!-- outputs -->
     <string name="gemini_text">Generated text from Gemini</string>
+    <string name="gemini_image_text">Generated text from Gemini image analysis</string>
+    
+    <!-- labels -->
+    <string name="model_label">Gemini Model:</string>
+    <string name="api_key_label">API Key:</string>
+    <string name="prompt_label">Prompt:</string>
+    <string name="model_hint">gemini-1.5-pro</string>
+    <string name="api_key_hint">Your Google AI API key</string>
 
     <!-- errors -->
     <string name="error_message_no_model">Error: No Gemini model is configured.</string>
