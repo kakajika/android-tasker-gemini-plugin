@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "dev.meinside.taskergeminiplugin"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "dev.meinside.taskergeminiplugin"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 3
         versionName = "0.0.3"
 
